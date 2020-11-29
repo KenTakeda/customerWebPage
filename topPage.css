@@ -1,0 +1,167 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+
+    margin: 0 auto;
+    font-size: 1.3vw;
+    margin-top: 30px;
+    color: #333333;
+}
+
+#top{
+    position: relative;
+    width: 100vw;
+    margin: 0;
+    padding-top: 40px;
+    height: 50vw;
+}
+
+#topPic{
+    width: 90vw;
+    height: 50vw;
+    align-items: center;
+    position: absolute;
+    object-fit: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#topPic img{
+    width: 100%;
+    object-fit: cover;
+    width: 90vw;
+}
+
+#topMesse{
+    z-index: 2;
+    text-align: center;
+    color: whitesmoke;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    text-shadow:0 0 3px rgb(0, 0, 0),0 0 3px rgb(0, 0, 0),0 0 3px rgb(0, 0, 0),0 0 3px rgb(0, 0, 0),0 0 3px rgb(0, 0, 0),0 0 3px rgb(0, 0, 0),0 0 3px rgb(0, 0, 0),0 0 3px rgb(0, 0, 0),0 0 3px rgb(0, 0, 0),0 0 3px rgb(0, 0, 0),0 0 3px rgb(0, 0, 0),0 0 3px rgb(0, 0, 0),0 0 3px rgb(0, 0, 0),0 0 3px rgb(0, 0, 0),0 0 3px rgb(0, 0, 0),0 0 3px rgb(0, 0, 0)
+}
+
+#topMesse h1{
+    font-size: 5em;
+}
+
+#topMesse p{
+    font-size: 2.5em;
+}
+
+#service{
+    width: 70vw;
+    height: auto;
+    margin: 0 auto;
+    padding-top: ;
+}
+
+#serviceAbout{
+    text-align: center;
+}
+
+#merit{
+    list-style: none;
+    text-align: center;
+    height: 28vh;
+    font-size: 1.2em;
+}
+
+#customer{
+    float: left;
+    width: 30vw;
+}
+
+#customerWords, #benderWords{
+    padding: 1rem 2rem;
+    border-left: 5px solid #000;
+    background: #f4f4f4;
+    list-style: none;
+    height: 10vw;
+}
+
+#bender{
+    float: right;
+    width: 30vw;
+}
+
+#messeTop{
+    font-size: 2em;
+}
+
+#words{
+    font-size: 1.3em;
+    text-align: left;
+}
+
+#serviceMesse{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+    color: #333333;
+}
+
+#aboutus{
+    height: auto;
+    width: 70vw;
+    margin: 0 auto;
+    padding: 30px;
+}
+#aboutus h2{
+    text-align: center;
+}
+
+#syo{
+    height: 30vw;
+}
+
+#syoPic{
+    float: left;
+    width: 30vw;
+    margin-right: 30px;
+}
+
+#syoImg{
+    width: 30vw;
+    height: auto;
+}
+
+#syoProf{
+    text-align: left;
+}
+
+#ken{
+    height: auto;
+}
+
+#kenPic{
+    height: auto;
+    width: 20vw;
+    float: left;
+    padding-right: 30px;
+}
+
+#kenImg{
+    width: 20vw;
+    height: auto;
+}
+
+#kenProf{
+    margin: 10px;
+}
+
+#contact{
+    padding: 50px;
+    text-align: left;
+    width: 70vw;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
